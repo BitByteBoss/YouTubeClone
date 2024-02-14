@@ -1,0 +1,306 @@
+.title-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+}
+.left-section{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 150px;
+}
+.middle-part{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  align-items: center;
+}
+.right-section{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 220px;
+  justify-content: space-between;
+}
+.hamburger-logo{
+  width: 23px;
+  margin-left: 20px;
+}
+.hamburger-logo:hover{
+  cursor: pointer;
+}
+.youtube-logo{
+  width: 92px;
+  margin-left: 30px;
+}
+.youtube-logo:hover{
+  cursor: pointer;
+}
+.search-bar{
+  flex: 1;
+  height: 35px;
+  margin-left: 30px; 
+  font-size: 15px;
+  border-width: 0.001px;
+  border-color: rgb(210, 210, 210);
+  padding-left: 10px;
+  border-radius: 2px;
+}
+.search-button{
+  width: 60px;
+  height: 38px;
+  border-color: rgb(192, 192, 192);
+  border-width: 0.01px;
+}
+.search-logo{
+  width: 30px;
+  height:25px;
+}
+.voice-button{
+  width: 40px;
+  height: 36px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.voice-logo{
+  width: 25px;
+  height: 24px;
+}
+.upload-logo{
+  width: 25px;
+}
+.app-logo{
+  width: 25px;
+}
+.notifi-logo{
+  width: 25px;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: grey;
+  background-color: white;
+  margin-bottom: 3px;
+  box-shadow: 1px .1px;
+  z-index: 100;
+}
+.channel-pic{
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.main-page{
+  padding-top: 70px;
+  padding-left: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: rgb(248, 248, 248);
+  
+}
+.photo{
+  width: 100%;
+}
+.description{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.channel-photo{
+  display: inline-block;
+  width: 37px;
+  vertical-align: top;
+  margin-top: 5px;
+  border-radius: 25px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px ;
+}
+.title{
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 550;
+}
+.author{
+  margin: 0;
+  margin-top: 10px;
+  font-size: 14px;
+  color: grey;
+}
+.status{
+  margin: 0;
+  margin-top: 4px;
+  font-size: 14px;
+  color: grey;
+}
+.task-bar{
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title-bar{
+  box-shadow: 10px .1px;
+  margin-bottom: 5px;
+}
+.home-logo{
+  width: 26px;
+  margin-top: 15px;
+  margin-left: 23px;
+}
+.home{
+  font-size: 11px;
+  margin: 0;
+  margin-left: 20px;
+}
+.explore-logo{
+  width: 26px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.explore{
+  font-size: 11px;
+  margin: 0;
+  margin-left: 17px;
+}
+.subscriptions-logo{
+  width: 26px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.subscriptions{
+  font-size: 11px;
+  margin: 0;
+  margin-left: 4px;
+}
+.originals-logo{
+  width: 26px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.originals{
+  font-size: 11px;
+  margin: 0;
+  margin-left: 13px;
+}
+.music-logo{
+  width: 26px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.music{
+  font-size: 11px;
+  margin: 0;
+}
+.library-logo{
+  width: 26px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.library{
+  font-size: 11px;
+  margin: 0;
+  margin-left: 20px;
+}
+.hover-home{
+  height: 75px;
+  width: 75px;
+}
+.hover-home:hover{
+  background-color: rgb(220, 220, 220);
+  cursor: pointer;
+}
+.photo{
+  width: 285px;
+}
+.description{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+
+}
+.main-task{
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: .01px .1px;
+}
+.upload-logo:hover{
+  cursor: pointer;
+}
+.app-logo:hover{
+  cursor: pointer;
+}
+.notifi-logo:hover{
+  cursor: pointer;
+}
+.channel-pic:hover{
+  cursor: pointer;
+}
+.main-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 8px;
+  row-gap: 15px;
+}
+.video-time{
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.photo-theme{
+  margin-bottom: 8px;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .main-page {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 999px) {
+  .main-page {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main-page {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.bell-icon{
+  position: absolute;
+  position: fixed;
+  width: 100px;
+  width: 17px;
+  background-color: rgb(218, 51, 51);
+  color: white;
+  border: none;
+  font-size: 11px;
+  height: 17px;
+  border-radius: 15px;
+}
+.three{
+  position: absolute;
+  position: fixed;
+  top: 7px;
+  right: 67px;
+  width: 20px;
+}
