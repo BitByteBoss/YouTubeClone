@@ -106,10 +106,6 @@
 .photo{
   width: 100%;
 }
-.description{
-  display: grid;
-  grid-template-columns: 50px 1fr;
-}
 .channel-photo{
   display: inline-block;
   width: 37px;
@@ -218,9 +214,6 @@
   background-color: rgb(220, 220, 220);
   cursor: pointer;
 }
-.photo{
-  width: 285px;
-}
 .description{
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -253,13 +246,13 @@
   row-gap: 15px;
 }
 .video-time{
+  position: absolute;
   font-size: 12px;
   font-weight: 500;
   padding: 4px;
   border-radius: 2px;
   background-color: black;
   color: white;
-  position: absolute;
   bottom: 8px;
   right: 8px;
   font-family: Arial, Helvetica, sans-serif;
